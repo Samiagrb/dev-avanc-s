@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<BODY>
+<FORM METHOD=POST ACTION="formulaire.jsp">
+<div class="container">
+	<h1>Formulaire d'inscription</h1>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="email">Nom:</label>
+    <div class="col-sm-10">
+      <input type="text" name="nom" class="form-control" id="nom" placeholder="Nom" required>
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="pwd">Prenom:</label>
+    <div class="col-sm-10">
+      <input type="text" NAME="prenom" class="form-control" id="prenom" placeholder="Prenom" required>
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="pwd">Date naissance:</label>
+   	 <div class="col-sm-10">
+      <input type="date" NAME="dateNaiss" class="form-control" id="dateNaiss" placeholder="jj/mm/aaaa" required>
+    </div>
+</div>
+
+
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="pwd">Adresse mail:</label>
+    <div class="col-sm-10">
+      <input type="email" NAME="email" class="form-control" id="email" placeholder="xxx@dddd.ff" required>
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="pwd">Confirmer Adresse mail:</label>
+    <div class="col-sm-10">
+      <input type="email" NAME="email" class="form-control" id="email" placeholder="xxx@dddd.ff"required>
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="pwd">Numero de portable:</label>
+    <div class="col-sm-10">
+      <input type="number" NAME="numtel" class="form-control" id="numtel" placeholder="0000000"required>
+    </div>
+  </div>
+  <div class="form-group center">
+    <div class="col-sm-offset-2 col-sm-10">
+      <button type="submit" class="btn btn-success">Enregister</button>
+      <button type="reset" class="btn btn-danger ">Annuler</button>
+    </div>
+    </div>
+    
+
+ 
+ 
+</form>
+
+
+
+</BODY>
+</HTML>
